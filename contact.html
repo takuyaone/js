@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@100&family=Sawarabi+Mincho&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="head">
+    <a href="index.html">
+      <img class="head__ttl" src="./img/logo.png" alt="">
+    </a>
+    <ul class="head__content">
+      <li class="head__content-item"><a href="index.html">ホーム</a></li>
+      <li class="head__content-item"><a href="service.html">事業内容</a></li>
+      <li class="head__content-item"><a href="news.html">ニュース</a></li>
+      <li class="head__content-item"><a href="blog.html">社員ブログ</a></li>
+      <li class="head__content-item"><a href="company.html">会社概要</a></li>
+      <li class="head__content-item"><a href="recruit.html">採用情報</a></li>
+      <li class="head__content-item"><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+    <div class="menu" id="menu">
+      <span class="menu__line-top"></span>
+      <span class="menu__line-middle"></span>
+      <span class="menu__line-bottom"></span>
+    </div>
+    <nav class="drawer__nav" id="drawer-nav">
+      <ul class="drawer__nav-list">
+        <li class="drawer__nav-item"><a href="index.html">ホーム</a></li>
+        <li class="drawer__nav-item"><a href="service.html">事業内容</a></li>
+        <li class="drawer__nav-item"><a href="news.html">ニュース</a></li>
+        <li class="drawer__nav-item"><a href="blog.html">社員ブログ</a></li>
+        <li class="drawer__nav-item"><a href="company.html">会社概要</a></li>
+        <li class="drawer__nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="drawer__nav-item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="head__img">
+    <h1 class="head__img-ttl">お問い合わせ</h1>
+  </div>
+  <div class="contact">
+    <form class="contact__form" action="index.html" method="post">
+      <div class="contact__form-item">
+        <label class="contact__form-item-name" for="company">会社名</label>
+        <input type="text" id="company" class="contact__form-item-input">
+      </div>
+      <div class="contact__form-item">
+        <label class="contact__form-item-name" for="name">お名前<span class="contact__form-item-required">*</span></label>
+        <input type="text" id="name" class="contact__form-item-input" required>
+      </div>
+      <div class="contact__form-item">
+        <label class="contact__form-item-name" for="email">メールアドレス<span class="contact__form-item-required">*</span></label>
+        <input type="email" id="email" class="contact__form-item-input" required>
+      </div>
+      <div class="contact__form-item">
+        <label class="contact__form-item-name" for="comment">お問い合わせ内容<span class="contact__form-item-required">*</span></label>
+        <textarea id="comment" cols="80" rows="8" class="contact__form-item-textarea" required></textarea>
+      </div>
+      <input type="submit" value="お申し込み" class="contact__form-submit">
+    </form>
+  </div>
+  <footer class="footer">
+    <div class="footer__inner wrap">
+      <small class="footer__small">© 2020 TECH inc.</small>
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item"><a href="index.html">ホーム</a></li>
+          <li class="footer__nav-item"><a href="service.html">事業内容</a></li>
+          <li class="footer__nav-item"><a href="news.html">ニュース</a></li>
+          <li class="footer__nav-item"><a href="blog.html">社員ブログ</a></li>
+          <li class="footer__nav-item"><a href="company.html">会社概要</a></li>
+          <li class="footer__nav-item"><a href="recruit.html">採用情報</a></li>
+          <li class="footer__nav-item"><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+<script src="js/main.js"></script>
+</body>
+</html>
